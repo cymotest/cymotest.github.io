@@ -9,7 +9,6 @@ After initial research we were able to extract two strings (one from each device
 Device Serial Number (as provided on the manufacturer sticker) | Acquired secret
 --- | ---
 A7R38T | eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b290YnJ1c2hfaWQiOiJTbWFyVGVldGgtUHJvLUE3UjM4VCJ9
---- | ---
 A9K3ZZ | eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b290YnJ1c2hfaWQiOiJTbWFyVGVldGgtUHJvLUE5SzNaWiJ9.VerC8eIpKidetYKthGNOmsHMYcpRjVqhS_IZOs_xTO4
 
 We also found a URL that is expected to be the device backend: https://what-sould-be-here
