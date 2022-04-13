@@ -1,34 +1,51 @@
 ---
 layout: default
 ---
+
 <body>
-<div data-target="readme-toc.content" class="Box-body px-5 pb-5">
-<article class="markdown-body entry-content container-lg" itemprop="text"><h1 dir="auto"><a id="user-content-cymotestgithubio" class="anchor" aria-hidden="true" href="#cymotestgithubio"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>cymotest.github.io</h1>
-<h3 dir="auto"><a id="user-content-the-task-at-hand-is-to-research-the-flagship-product-by-dental-hygiene-company-smarteeth-which-is-the-future-of-toothbrushes" class="anchor" aria-hidden="true" href="#the-task-at-hand-is-to-research-the-flagship-product-by-dental-hygiene-company-smarteeth-which-is-the-future-of-toothbrushes"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>The task at hand is to research the flagship product by Dental Hygiene company "SmarTeeth", which is "the future of toothbrushes".</h3>
-<h3 dir="auto"><a id="user-content-smarteeth-proudly-state-that-the-device-comes-built-in-with-an-immutable-secret-from-the-factory-and-enhances-its-security-further-by-acquiring-a-stronger-secret-when-first-initialized-they-also-state-that-all-external-communications-are-encrypted" class="anchor" aria-hidden="true" href="#smarteeth-proudly-state-that-the-device-comes-built-in-with-an-immutable-secret-from-the-factory-and-enhances-its-security-further-by-acquiring-a-stronger-secret-when-first-initialized-they-also-state-that-all-external-communications-are-encrypted"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>'SmarTeeth' proudly state that the device comes built-in with an immutable secret from the factory and enhances its security further by acquiring a stronger secret when first initialized. They also state that all external communications are encrypted.</h3>
-<p dir="auto">After initial research we were able to extract two strings (one from each device you have). We are not sure what it is, but we believe it contains some kind of unique ID for the device:</p>
-<table>
-<thead>
-<tr>
-<th>Device Serial Number (as provided on the manufacturer sticker)</th>
-<th>Acquired secret</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>A7R38T</td>
-<td>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b290YnJ1c2hfaWQiOiJTbWFyVGVldGgtUHJvLUE3UjM4VCJ9</td>
-</tr>
-<tr>
-<td>A9K3ZZ</td>
-<td>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b290YnJ1c2hfaWQiOiJTbWFyVGVldGgtUHJvLUE5SzNaWiJ9.VerC8eIpKidetYKthGNOmsHMYcpRjVqhS_IZOs_xTO4</td>
-</tr>
-</tbody>
-</table>
-<p dir="auto">We also found a URL that is expected to be the device backend: <a href="https://what-sould-be-here" rel="nofollow">https://what-sould-be-here</a>
-Your Goal:
-Your goal is to research the security procedures the device conducts against the backend, and think of potential ways to circumvent them, or gain higher privileges.
-Expect to reveal secrets or find ways to trick the backend into thinking you are something you are not.</p>
-</article>
-          </div>
+    <div>
+        <article class="markdown-body entry-content container-lg" itemprop="text">
+            <h1 dir="auto"><a id="user-content-cymotestgithubio" class="anchor" aria-hidden="true"
+                    href="#cymotestgithubio"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1"
+                        width="16" height="16" aria-hidden="true">
+                        <path fill-rule="evenodd"
+                            d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z">
+                        </path>
+                    </svg></a>cymotest.github.io</h1>
+            <p dir="auto">The task at hand is to research the flagship product by Dental Hygiene company "SmarTeeth",
+                which is "the future of toothbrushes".</p>
+            <p dir="auto">'SmarTeeth' proudly state that the device comes built-in with an immutable secret from the
+                factory and enhances its security further by acquiring a stronger secret when first initialized. They
+                also state that all external communications are encrypted.</p>
+            <p dir="auto">After initial research we were able to extract two strings (one from each device you have). We
+                are not sure what it is, but we believe it contains some kind of unique ID for the device:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Device Serial Number (as provided on the manufacturer sticker)</th>
+                        <th>Acquired secret</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>A7R38T</td>
+                        <td>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b290YnJ1c2hfaWQiOiJTbWFyVGVldGgtUHJvLUE3UjM4VCJ9
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>A9K3ZZ</td>
+                        <td>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b290YnJ1c2hfaWQiOiJTbWFyVGVldGgtUHJvLUE5SzNaWiJ9.VerC8eIpKidetYKthGNOmsHMYcpRjVqhS_IZOs_xTO4
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p dir="auto">We also found a URL that is expected to be the device backend: <a
+                    href="https://what-sould-be-here" rel="nofollow">https://what-sould-be-here</a>
+                Your Goal:
+                Your goal is to research the security procedures the device conducts against the backend, and think of
+                potential ways to circumvent them, or gain higher privileges.
+                Expect to reveal secrets or find ways to trick the backend into thinking you are something you are not.
+            </p>
+        </article>
+    </div>
 </body>
