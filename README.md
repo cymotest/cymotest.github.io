@@ -14,3 +14,4 @@ We also found a URL that is expected to be the device backend: https://what-soul
 Your Goal:
 Your goal is to research the security procedures the device conducts against the backend, and think of potential ways to circumvent them, or gain higher privileges.
 Expect to reveal secrets or find ways to trick the backend into thinking you are something you are not.
+
